@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #00af91;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+.imagem{
+    width: 10rem;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+header, ul, a{
+    background-color: #1e6f5c;
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    text-decoration-line: none;
+}
+.lista, li{
+    display: inline-block;    
+    padding: 10px;
+    position: relative;
+    top: -20px;
+}
+section{
+    color: #ffcc29;
+}
