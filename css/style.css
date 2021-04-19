@@ -14,20 +14,43 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    margin: 0 auto;
 }
 header, ul, a{
     background-color: #1e6f5c;
     text-decoration: none;
     list-style: none;
-    color: whitesmoke;
+    color: #ffcc29;
     text-decoration-line: none;
 }
 .lista, li{
     display: inline-block;    
     padding: 10px;
+    margin-left: 10px;
     position: relative;
     top: -20px;
 }
+h1{
+    color: whitesmoke;
+    text-align: center;
+    display: block;
+    margin: 50px;
+}
 section{
-    color: #ffcc29;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 250px;
+    text-align: center;
+    justify-content: space-around;
+}
+section div{
+    background-image: url();
+    color: whitesmoke;
+}
+footer{
+    margin-top: 400px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
