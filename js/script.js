@@ -2,7 +2,7 @@ const dias = document.getElementById('daysEl');
 const horas = document.getElementById('hoursEl');
 const minu = document.getElementById('minutesEl');
 const segun = document.getElementById('secondsEl');
-const theday = "27 July 2021";
+const theday = "27 June 2021";
 function contador(){
     const thedaydate = new Date(theday);
     const rightnow = new Date();
