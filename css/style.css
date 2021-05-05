@@ -7,6 +7,7 @@ body{
 }
 .imagem{
     width: 15rem;
+    margin-left: 15px;
     position: relative;
     top: 12px;
 }
@@ -24,10 +25,9 @@ header, ul, a{
     text-decoration: none;
     list-style: none;
     color: #ffcc29;
-    justify-content: space-around;
     text-decoration-line: none;
 }
-.lista, li, a{
+.lista{
     display: inline-block;    
     position: relative;
     top: -10px;
@@ -60,4 +60,22 @@ footer{
 }
 .github{
     position: static;
+}
+@media only screen and (max-width: 680px){
+    .imagem{
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+    }
+    nav{
+        margin: 0 auto;
+    }
+    .lista{
+        width: 50%;
+        font-size: 70px;
+        display: block;
+        line-height: 100px;
+        position: relative;
+        top: -40px;
+    }
 }
